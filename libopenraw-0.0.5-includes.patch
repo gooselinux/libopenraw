@@ -1,0 +1,22 @@
+diff -ru libopenraw-0.0.5.orig/demo/cfa.cpp libopenraw-0.0.5/demo/cfa.cpp
+--- libopenraw-0.0.5.orig/demo/cfa.cpp	2009-02-28 14:02:03.000000000 +0000
++++ libopenraw-0.0.5/demo/cfa.cpp	2009-02-28 14:03:02.000000000 +0000
+@@ -21,6 +21,7 @@
+ 
+ 
+ #include <iostream>
++#include <stdio.h>
+ #include <libopenraw/libopenraw.h>
+ #include <libopenraw/debug.h>
+ #include <libopenraw++/thumbnail.h>
+diff -ru libopenraw-0.0.5.orig/demo/thumb.cpp libopenraw-0.0.5/demo/thumb.cpp
+--- libopenraw-0.0.5.orig/demo/thumb.cpp	2009-02-28 14:02:03.000000000 +0000
++++ libopenraw-0.0.5/demo/thumb.cpp	2009-02-28 14:02:51.000000000 +0000
+@@ -21,6 +21,7 @@
+ 
+ 
+ #include <iostream>
++#include <stdio.h>
+ #include <libopenraw/libopenraw.h>
+ #include <libopenraw/debug.h>
+ #include <libopenraw++/thumbnail.h>
